@@ -1,0 +1,74 @@
+.about-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.about-left {
+  width: 35%;
+  background-image: url("../../images/about-bg.jpg");
+  background-size: cover;
+  position: relative;
+}
+.about-right {
+  width: 60%;
+}
+.about-right h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #42464f;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.about-right p {
+  font-size: 14px;
+  color: #648997;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+  margin: 20px 0 30px;
+  text-align: justify;
+}
+.bold-text {
+  font-weight: 600;
+}
+.about-link {
+  color: #42b773;
+  cursor: pointer;
+}
+.about-link:hover {
+  color: black;
+  transition: 0.3s;
+}
+.about-right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #42b773 0%, #a9dc56 100%);
+  padding: 15px 35px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+.about-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.about-right a:hover {
+  background: linear-gradient(to right, #42b773 0%, #42b773 100%);
+}
+.about-bg i {
+  color: #fff;
+  font-size: 90px;
+}
+.about-bg:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+}
+.about-bg i:hover {
+  font-size: 100px;
+  transition: 0.3s;
+}

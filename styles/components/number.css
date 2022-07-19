@@ -1,0 +1,73 @@
+.numbers{
+    position: relative;
+}
+.num-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.num-item{
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.num-left{
+    width: 130px;
+    border: 2px solid rgba(101, 137, 151, 0.33);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.num-right{
+    width: 73%;
+}
+.num-right a{
+    text-decoration: none;
+    color: #42b773;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.num-right p{
+    color: #658997;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.num-left h1{
+    color: rgba(101, 137, 151, 0.33);
+    font-size: 35px;
+}
+.num-right a:hover{
+    color: black;
+    text-decoration: underline;
+    transition: .3s;
+}
+.num-item:hover .num-left{
+    background-color: #a9dc56;
+    border: 2px solid #a9dc56;
+    transition: .3s;
+}
+.num-item:hover .num-left h1{
+    color: #fff;
+    transition: .3s;
+}
+.numbers::after{
+    content: "";
+    width: 157px;
+    height: 68px;
+    background-image: url('../../images/num-af.png');
+    display: flex;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,56 @@
+.home {
+  padding: 250px 0;
+  background-image: url("../../images/home-bg.jpeg");
+  background-size: cover;
+  position: relative;
+}
+.home-inner h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+.home-inner {
+  text-align: center;
+  color: #fff;
+}
+.home-inner h1 {
+  font-size: 45px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 30px 0;
+}
+.home-inner p {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.home-inner a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 60px;
+  display: inline-block;
+  background: linear-gradient(to right, #42b773 0%, #a9dc56 100%);
+  border-radius: 5px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home::after {
+  content: "";
+  width: 157px;
+  height: 68px;
+  background-image: url("../../images/home-after.png");
+  display: flex;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+.home-inner a:hover {
+  background: linear-gradient(to right, #42b773 0%, #42b773 100%);
+}
